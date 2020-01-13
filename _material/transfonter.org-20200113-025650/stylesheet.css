@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Getone-Bol';
+    src: url('Getone-Bol.woff2') format('woff2'),
+        url('Getone-Bol.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Getone';
+    src: url('Getone-ThinItalic.woff2') format('woff2'),
+        url('Getone-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+

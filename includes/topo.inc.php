@@ -15,5 +15,28 @@
     <div id="root">
         
         <header class="topo">
-            
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <a class="navbar-brand" href="#"><img src="images/logo.svg" class="pr-logo" alt="Pague Rápido" /></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        
+                        <div class="d-flex justify-content-between flex-column flex-column-reverse flex-sm-row  w-100">
+
+                            <button type="button" class="btn btn-primary pr-btn-contrate font-getone-bold color-231941 font-18 ml-0 ml-sm-5 mt-3 mt-sm-0">Contrate para sua empresa</button>
+
+                            <ul class="navbar-nav font-18 mt-2 mt-sm-0 pt-sm-1">
+                                <li class="nav-item"><a class="nav-link color-231941 font-getone-bold" href="#">Quem Somos</a></li>
+                                <li class="nav-item"><a class="nav-link color-231941 font-getone-bold" href="#">Fale Conosco</a></li>                            
+                            </ul>                        
+
+                        </div>
+
+
+                    </div>
+                </nav>
+            </div>
         </header><!-- topo -->

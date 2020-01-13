@@ -5,6 +5,10 @@
     --color-base: #231f20;
 }
 
+
+@font-face { font-family: 'GetoneBold';src: url('../fonts/Getone-Bol.woff2') format('woff2'),url('../fonts/Getone-Bol.woff') format('woff');font-weight: bold;font-style: normal; }
+@font-face { font-family: 'GetoneThinItalic';src: url('../fonts/Getone-ThinItalic.woff2') format('woff2'),url('../fonts/Getone-ThinItalic.woff') format('woff');font-weight: 100;font-style: italic; }
+
 * { padding: 0;margin: 0;box-sizing: border-box;outline: 0; }
 
 /* @font-face */
@@ -34,6 +38,8 @@ a:hover { text-decoration: none; }
 
 .color-default { color: var(--color-base); }
 
+.pr-logo { height: 50px; }
+
 .font-10 { font-size:.5675rem !important; }
 .font-11 { font-size:.6875rem !important; }
 .font-12 { font-size:.7825rem !important; }
@@ -47,6 +53,10 @@ a:hover { text-decoration: none; }
 .font-28 { font-size:1.75rem !important; }
 .font-32 { font-size:2rem !important; }
 .font-40 { font-size:2.5rem !important; }
+
+.font-getone-bold { font-family:'GetoneBold' !important; }
+
+.color-231941 { color:#231941 !important; }
 
 .line-height-100 { line-height:100% !important; }
 .line-height-110 { line-height:110% !important; }
@@ -68,7 +78,14 @@ a:hover { text-decoration: none; }
 .scale-170 { transform:scale(1.7) }
 .scale-180 { transform:scale(1.8) }
 
-@media (min-width: 768px) { /* COL MD */		
+.pr-btn-contrate { border-radius: 0 !important;background-color:#69C2BA !important;border:0 !important;padding: 12.5px 20.730px !important; }
+
+.pr-consulte-seu-cpf-main { background:url(../images/bg-consulte-seu-cpf.png) no-repeat center center;background-size: cover; }
+.pr-consulte-seu-cpf { height:450px; }
+
+@media (min-width: 768px) { /* COL MD */
+	
+	.pr-logo { height: 97px; }
 
 	.font-md-11 { font-size:.6875rem !important; /* 11px */ }
 	.font-md-13 { font-size:.8125rem !important; /* 13px */ }
@@ -108,6 +125,7 @@ a:hover { text-decoration: none; }
 	.font-xl-28 { font-size:1.75rem !important; /* 28px */ }
 	.font-xl-32 { font-size:2rem !important; /* 32px */ }
 	.font-xl-40 { font-size:2.5rem !important; /* 40px */ }	
+
 }
 
 /* FANCYBOX */
