@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Getone-LigIta';
+    src: url('Getone-LigIta.woff2') format('woff2'),
+        url('Getone-LigIta.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
